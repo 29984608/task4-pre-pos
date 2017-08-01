@@ -1,7 +1,10 @@
 'use strict';
 
 function compute_average(collection) {
-  //在这里写入代码
+  let sum = collection.reduce((sum, value) => sum + value);
+
+  return sum / collection.length;
+
 }
 
 module.exports = compute_average;
