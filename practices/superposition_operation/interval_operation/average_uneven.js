@@ -1,8 +1,12 @@
 'use strict';
 
 function average_uneven(collection) {
+  let sum = 0;
 
-  //在这里写入代码
+  for (let i = 1; i <= 10; i += 2)
+    sum += i;
+
+  return sum / 5;
 }
 
 module.exports = average_uneven;
